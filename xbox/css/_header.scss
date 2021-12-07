@@ -1,0 +1,46 @@
+.container-layout{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto 100px;
+    padding: 60px 0;
+
+
+    .present-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 10px;
+
+        .present-logo img{
+            width: 100%;
+        }
+        p{
+            font-size: 25px;
+            width: 60%;
+            padding: 10px 0;
+        }
+
+        .btn-long{
+            padding: 10px;
+            a{
+                text-decoration: none;
+                color: var(--color-tertiary);
+                border-bottom: 2px solid white;
+                padding: 10px;
+            }
+        }
+    }
+
+    .console-logo{
+        width: 100%;
+        padding: 10px;
+
+        img{
+            width: 100%;
+        }
+
+    }
+}

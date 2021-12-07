@@ -1,0 +1,62 @@
+@import "navbar";
+@import "header";
+@import "section";
+@import "main";
+@import "bottom";
+
+:root{
+    //principal
+    --color-background:#E6E6E6;
+    --color-background-two:#0F500F;
+    //paramount 
+    --color-primary:#ffffff;
+    --color-secondary:#000;
+    --color-tertiary:#0C6A0F;
+    --color-quaternary:#e90e0ed7;
+    --color-quintary: #10FADF;
+    //filtros
+    --color-banner:#2b96167e;
+    --color-main:#cbcbcb94;
+
+    //things
+    --color-things:#2ec70fa6;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--color-background);
+    font-size: 16px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+#btnScrollToTop{
+    position: fixed;
+    right: 50px;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: var(--color-tertiary);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    color: white;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+
+#btnScrollToTop:active{
+    background: var(--color-background-two);
+}
+
+
+.btn-buy a:hover{
+    background: var(--color-quintary);
+}
+

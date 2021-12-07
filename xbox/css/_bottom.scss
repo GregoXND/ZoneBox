@@ -1,0 +1,57 @@
+.btn-join{
+    padding: 5px 10px;
+    background-color: transparent;
+    border: 1.5px solid transparent;
+    color: #27a745;
+    border-radius: 4px;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    position: relative;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.btn-join::after{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-top: 1.5px solid #27a745;
+    border-left: 1.5px solid #27a745;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    transition: all 0.2s;
+}
+
+.btn-join::before{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-bottom: 1.5px solid #27a745;
+    border-right: 1.5px solid #27a745;
+    left: -1;
+    right: 0;
+    bottom: 0;
+    top: -1;
+    transition: all 0.2s;
+}
+
+.btn-join:hover:after{
+    width: 115px;
+    height: 35px;
+}
+
+.btn-join a{
+    color: #ffffff;
+    text-decoration:none;
+} 
+
+.btn-join:hover::before{
+    width: 115px;
+    height: 35px;
+}
+
